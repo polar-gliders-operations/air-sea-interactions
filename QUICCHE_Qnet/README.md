@@ -1,2 +1,2 @@
 # QUICCHE
-$Q_{net}$ for the QUICCHE cruise
+Qnet for the QUICCHE cruise
