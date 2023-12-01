@@ -1,0 +1,698 @@
+2023-11-16 17:16:21,253 /home/jedholm/random/AirSeaFluxCode-master/AirSeaFluxCode/src/flux_subs.py:390: RuntimeWarning: invalid value encountered in power
+  psi = -1*((1+b*zol)**1.5+b*(zol-14.28)*np.exp(-dzol)+8.525)
+
+2023-11-16 17:16:21,254 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.289 | tsr = -0.059 | qsr = -0.0001528
+2023-11-16 17:16:21,256 /home/jedholm/random/AirSeaFluxCode-master/AirSeaFluxCode/src/flux_subs.py:593: RuntimeWarning: invalid value encountered in power
+  ug = np.where(Bf > 0, np.maximum(beta*np.power(Bf*zi, 1/3), ustb), ustb)
+
+2023-11-16 17:16:21,261 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0588 | qsr = -0.0001517
+2023-11-16 17:16:21,266 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0588 | qsr = -0.0001517
+2023-11-16 17:16:21,271 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0588 | qsr = -0.0001517
+2023-11-16 17:16:21,275 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0588 | qsr = -0.0001517
+2023-11-16 17:16:21,276 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0588 | qsr = -0.0001517
+2023-11-16 17:16:21,278 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0588 | qsr = -0.0001517
+2023-11-16 17:16:21,279 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0588 | qsr = -0.0001517
+2023-11-16 17:16:21,279 method C35 | # of iterations:8
+2023-11-16 17:16:21,279 method C35 | # of points that did not converge :0 
+
+2023-11-16 17:16:21,286 /home/jedholm/random/AirSeaFluxCode-master/AirSeaFluxCode/src/flux_subs.py:635: RuntimeWarning: invalid value encountered in sqrt
+  GustFact = np.sqrt(wind/spd)
+
+2023-11-16 17:16:21,295 /home/jedholm/random/AirSeaFluxCode-master/AirSeaFluxCode/src/flux_subs.py:390: RuntimeWarning: invalid value encountered in power
+  psi = -1*((1+b*zol)**1.5+b*(zol-14.28)*np.exp(-dzol)+8.525)
+
+2023-11-16 17:16:21,297 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = -65.16 | usr = 0.289 | tsr = -0.0686 | qsr = -0.0001529
+2023-11-16 17:16:21,298 /home/jedholm/random/AirSeaFluxCode-master/AirSeaFluxCode/src/flux_subs.py:593: RuntimeWarning: invalid value encountered in power
+  ug = np.where(Bf > 0, np.maximum(beta*np.power(Bf*zi, 1/3), ustb), ustb)
+
+2023-11-16 17:16:21,303 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = -65.16 | usr = 0.292 | tsr = -0.0591 | qsr = -0.0001525
+2023-11-16 17:16:21,308 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = -65.16 | usr = 0.291 | tsr = -0.0588 | qsr = -0.0001517
+2023-11-16 17:16:21,314 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = -65.16 | usr = 0.291 | tsr = -0.0589 | qsr = -0.0001518
+2023-11-16 17:16:21,318 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = -65.16 | usr = 0.291 | tsr = -0.0589 | qsr = -0.0001518
+2023-11-16 17:16:21,320 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = -65.16 | usr = 0.291 | tsr = -0.0589 | qsr = -0.0001518
+2023-11-16 17:16:21,321 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = -65.16 | usr = 0.291 | tsr = -0.0589 | qsr = -0.0001518
+2023-11-16 17:16:21,323 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = -65.16 | usr = 0.291 | tsr = -0.0589 | qsr = -0.0001518
+2023-11-16 17:16:21,323 method C35 | # of iterations:8
+2023-11-16 17:16:21,323 method C35 | # of points that did not converge :0 
+
+2023-11-16 17:16:21,329 /home/jedholm/random/AirSeaFluxCode-master/AirSeaFluxCode/src/flux_subs.py:635: RuntimeWarning: invalid value encountered in sqrt
+  GustFact = np.sqrt(wind/spd)
+
+2023-11-16 17:16:21,338 /home/jedholm/random/AirSeaFluxCode-master/AirSeaFluxCode/src/flux_subs.py:390: RuntimeWarning: invalid value encountered in power
+  psi = -1*((1+b*zol)**1.5+b*(zol-14.28)*np.exp(-dzol)+8.525)
+
+2023-11-16 17:16:21,340 method C35 | dter = -0.2 | dqer = -0.0001838 | tkt = 0.0 | Rnl = -63.49 | usr = 0.289 | tsr = -0.0496 | qsr = -0.0001444
+2023-11-16 17:16:21,342 /home/jedholm/random/AirSeaFluxCode-master/AirSeaFluxCode/src/flux_subs.py:593: RuntimeWarning: invalid value encountered in power
+  ug = np.where(Bf > 0, np.maximum(beta*np.power(Bf*zi, 1/3), ustb), ustb)
+
+2023-11-16 17:16:21,347 method C35 | dter = -0.21 | dqer = -0.0001874 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.0519 | qsr = -0.0001459
+2023-11-16 17:16:21,353 method C35 | dter = -0.21 | dqer = -0.0001875 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.0519 | qsr = -0.0001462
+2023-11-16 17:16:21,360 method C35 | dter = -0.21 | dqer = -0.0001875 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.0519 | qsr = -0.0001463
+2023-11-16 17:16:21,363 method C35 | dter = -0.21 | dqer = -0.0001875 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.0519 | qsr = -0.0001463
+2023-11-16 17:16:21,365 method C35 | dter = -0.21 | dqer = -0.0001875 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.0519 | qsr = -0.0001463
+2023-11-16 17:16:21,366 method C35 | dter = -0.21 | dqer = -0.0001875 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.0519 | qsr = -0.0001463
+2023-11-16 17:16:21,368 method C35 | dter = -0.21 | dqer = -0.0001875 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.0519 | qsr = -0.0001463
+2023-11-16 17:16:21,368 method C35 | # of iterations:8
+2023-11-16 17:16:21,368 method C35 | # of points that did not converge :0 
+
+2023-11-16 17:16:21,375 /home/jedholm/random/AirSeaFluxCode-master/AirSeaFluxCode/src/flux_subs.py:635: RuntimeWarning: invalid value encountered in sqrt
+  GustFact = np.sqrt(wind/spd)
+
+2023-11-16 17:16:21,383 /home/jedholm/random/AirSeaFluxCode-master/AirSeaFluxCode/src/flux_subs.py:390: RuntimeWarning: invalid value encountered in power
+  psi = -1*((1+b*zol)**1.5+b*(zol-14.28)*np.exp(-dzol)+8.525)
+
+2023-11-16 17:16:21,389 method C35 | dter = -0.21 | dqer = -0.000187 | tkt = 0.0 | Rnl = -63.49 | usr = 0.289 | tsr = -0.0592 | qsr = -0.0001444
+2023-11-16 17:16:21,391 /home/jedholm/random/AirSeaFluxCode-master/AirSeaFluxCode/src/flux_subs.py:593: RuntimeWarning: invalid value encountered in power
+  ug = np.where(Bf > 0, np.maximum(beta*np.power(Bf*zi, 1/3), ustb), ustb)
+
+2023-11-16 17:16:21,400 method C35 | dter = -0.21 | dqer = -0.000188 | tkt = 0.0 | Rnl = -64.05 | usr = 0.291 | tsr = -0.0531 | qsr = -0.0001465
+2023-11-16 17:16:21,410 method C35 | dter = -0.21 | dqer = -0.0001876 | tkt = 0.0 | Rnl = -64.05 | usr = 0.29 | tsr = -0.0529 | qsr = -0.0001462
+2023-11-16 17:16:21,420 method C35 | dter = -0.21 | dqer = -0.0001878 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.053 | qsr = -0.0001463
+2023-11-16 17:16:21,425 method C35 | dter = -0.21 | dqer = -0.0001878 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.053 | qsr = -0.0001463
+2023-11-16 17:16:21,428 method C35 | dter = -0.21 | dqer = -0.0001878 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.053 | qsr = -0.0001463
+2023-11-16 17:16:21,430 method C35 | dter = -0.21 | dqer = -0.0001878 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.053 | qsr = -0.0001463
+2023-11-16 17:16:21,432 method C35 | dter = -0.21 | dqer = -0.0001878 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.053 | qsr = -0.0001463
+2023-11-16 17:16:21,434 method C35 | dter = -0.21 | dqer = -0.0001878 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.053 | qsr = -0.0001463
+2023-11-16 17:16:21,436 method C35 | dter = -0.21 | dqer = -0.0001878 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.053 | qsr = -0.0001463
+2023-11-16 17:16:21,437 method C35 | # of iterations:10
+2023-11-16 17:16:21,437 method C35 | # of points that did not converge :0 
+
+2023-11-16 17:16:21,443 /home/jedholm/random/AirSeaFluxCode-master/AirSeaFluxCode/src/flux_subs.py:635: RuntimeWarning: invalid value encountered in sqrt
+  GustFact = np.sqrt(wind/spd)
+
+2023-11-16 17:24:10,619 /home/jedholm/random/AirSeaFluxCode-master/AirSeaFluxCode/src/flux_subs.py:390: RuntimeWarning: invalid value encountered in power
+  psi = -1*((1+b*zol)**1.5+b*(zol-14.28)*np.exp(-dzol)+8.525)
+
+2023-11-16 17:24:10,621 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.289 | tsr = -0.059 | qsr = -0.0001528
+2023-11-16 17:24:10,622 /home/jedholm/random/AirSeaFluxCode-master/AirSeaFluxCode/src/flux_subs.py:593: RuntimeWarning: invalid value encountered in power
+  ug = np.where(Bf > 0, np.maximum(beta*np.power(Bf*zi, 1/3), ustb), ustb)
+
+2023-11-16 17:24:10,627 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0588 | qsr = -0.0001517
+2023-11-16 17:24:10,633 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0588 | qsr = -0.0001517
+2023-11-16 17:24:10,638 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0588 | qsr = -0.0001517
+2023-11-16 17:24:10,641 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0588 | qsr = -0.0001517
+2023-11-16 17:24:10,642 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0588 | qsr = -0.0001517
+2023-11-16 17:24:10,644 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0588 | qsr = -0.0001517
+2023-11-16 17:24:10,645 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0588 | qsr = -0.0001517
+2023-11-16 17:24:10,645 method C35 | # of iterations:8
+2023-11-16 17:24:10,645 method C35 | # of points that did not converge :0 
+
+2023-11-16 17:24:10,652 /home/jedholm/random/AirSeaFluxCode-master/AirSeaFluxCode/src/flux_subs.py:635: RuntimeWarning: invalid value encountered in sqrt
+  GustFact = np.sqrt(wind/spd)
+
+2023-11-16 17:24:10,661 /home/jedholm/random/AirSeaFluxCode-master/AirSeaFluxCode/src/flux_subs.py:390: RuntimeWarning: invalid value encountered in power
+  psi = -1*((1+b*zol)**1.5+b*(zol-14.28)*np.exp(-dzol)+8.525)
+
+2023-11-16 17:24:10,662 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = -65.16 | usr = 0.289 | tsr = -0.0685 | qsr = -0.0001528
+2023-11-16 17:24:10,664 /home/jedholm/random/AirSeaFluxCode-master/AirSeaFluxCode/src/flux_subs.py:593: RuntimeWarning: invalid value encountered in power
+  ug = np.where(Bf > 0, np.maximum(beta*np.power(Bf*zi, 1/3), ustb), ustb)
+
+2023-11-16 17:24:10,668 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = -65.16 | usr = 0.292 | tsr = -0.0589 | qsr = -0.0001525
+2023-11-16 17:24:10,674 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = -65.16 | usr = 0.291 | tsr = -0.0588 | qsr = -0.0001515
+2023-11-16 17:24:10,680 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = -65.16 | usr = 0.291 | tsr = -0.0588 | qsr = -0.0001516
+2023-11-16 17:24:10,684 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = -65.16 | usr = 0.291 | tsr = -0.0588 | qsr = -0.0001516
+2023-11-16 17:24:10,686 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = -65.16 | usr = 0.291 | tsr = -0.0588 | qsr = -0.0001516
+2023-11-16 17:24:10,687 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = -65.16 | usr = 0.291 | tsr = -0.0588 | qsr = -0.0001516
+2023-11-16 17:24:10,689 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = -65.16 | usr = 0.291 | tsr = -0.0588 | qsr = -0.0001516
+2023-11-16 17:24:10,689 method C35 | # of iterations:8
+2023-11-16 17:24:10,689 method C35 | # of points that did not converge :0 
+
+2023-11-16 17:24:10,696 /home/jedholm/random/AirSeaFluxCode-master/AirSeaFluxCode/src/flux_subs.py:635: RuntimeWarning: invalid value encountered in sqrt
+  GustFact = np.sqrt(wind/spd)
+
+2023-11-16 17:24:10,704 /home/jedholm/random/AirSeaFluxCode-master/AirSeaFluxCode/src/flux_subs.py:390: RuntimeWarning: invalid value encountered in power
+  psi = -1*((1+b*zol)**1.5+b*(zol-14.28)*np.exp(-dzol)+8.525)
+
+2023-11-16 17:24:10,706 method C35 | dter = -0.2 | dqer = -0.0001838 | tkt = 0.0 | Rnl = -63.49 | usr = 0.289 | tsr = -0.0496 | qsr = -0.0001444
+2023-11-16 17:24:10,708 /home/jedholm/random/AirSeaFluxCode-master/AirSeaFluxCode/src/flux_subs.py:593: RuntimeWarning: invalid value encountered in power
+  ug = np.where(Bf > 0, np.maximum(beta*np.power(Bf*zi, 1/3), ustb), ustb)
+
+2023-11-16 17:24:10,713 method C35 | dter = -0.21 | dqer = -0.0001874 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.0519 | qsr = -0.0001459
+2023-11-16 17:24:10,719 method C35 | dter = -0.21 | dqer = -0.0001875 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.0519 | qsr = -0.0001462
+2023-11-16 17:24:10,726 method C35 | dter = -0.21 | dqer = -0.0001875 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.0519 | qsr = -0.0001463
+2023-11-16 17:24:10,729 method C35 | dter = -0.21 | dqer = -0.0001875 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.0519 | qsr = -0.0001463
+2023-11-16 17:24:10,731 method C35 | dter = -0.21 | dqer = -0.0001875 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.0519 | qsr = -0.0001463
+2023-11-16 17:24:10,732 method C35 | dter = -0.21 | dqer = -0.0001875 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.0519 | qsr = -0.0001463
+2023-11-16 17:24:10,734 method C35 | dter = -0.21 | dqer = -0.0001875 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.0519 | qsr = -0.0001463
+2023-11-16 17:24:10,734 method C35 | # of iterations:8
+2023-11-16 17:24:10,734 method C35 | # of points that did not converge :0 
+
+2023-11-16 17:24:10,741 /home/jedholm/random/AirSeaFluxCode-master/AirSeaFluxCode/src/flux_subs.py:635: RuntimeWarning: invalid value encountered in sqrt
+  GustFact = np.sqrt(wind/spd)
+
+2023-11-16 17:24:10,749 /home/jedholm/random/AirSeaFluxCode-master/AirSeaFluxCode/src/flux_subs.py:390: RuntimeWarning: invalid value encountered in power
+  psi = -1*((1+b*zol)**1.5+b*(zol-14.28)*np.exp(-dzol)+8.525)
+
+2023-11-16 17:24:10,755 method C35 | dter = -0.21 | dqer = -0.000187 | tkt = 0.0 | Rnl = -63.49 | usr = 0.289 | tsr = -0.059 | qsr = -0.0001443
+2023-11-16 17:24:10,757 /home/jedholm/random/AirSeaFluxCode-master/AirSeaFluxCode/src/flux_subs.py:593: RuntimeWarning: invalid value encountered in power
+  ug = np.where(Bf > 0, np.maximum(beta*np.power(Bf*zi, 1/3), ustb), ustb)
+
+2023-11-16 17:24:10,765 method C35 | dter = -0.21 | dqer = -0.000188 | tkt = 0.0 | Rnl = -64.05 | usr = 0.291 | tsr = -0.053 | qsr = -0.0001461
+2023-11-16 17:24:10,776 method C35 | dter = -0.21 | dqer = -0.0001876 | tkt = 0.0 | Rnl = -64.05 | usr = 0.29 | tsr = -0.0527 | qsr = -0.0001459
+2023-11-16 17:24:10,786 method C35 | dter = -0.21 | dqer = -0.0001878 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.0528 | qsr = -0.000146
+2023-11-16 17:24:10,791 method C35 | dter = -0.21 | dqer = -0.0001878 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.0528 | qsr = -0.000146
+2023-11-16 17:24:10,794 method C35 | dter = -0.21 | dqer = -0.0001878 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.0528 | qsr = -0.000146
+2023-11-16 17:24:10,796 method C35 | dter = -0.21 | dqer = -0.0001878 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.0528 | qsr = -0.000146
+2023-11-16 17:24:10,798 method C35 | dter = -0.21 | dqer = -0.0001878 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.0528 | qsr = -0.000146
+2023-11-16 17:24:10,800 method C35 | dter = -0.21 | dqer = -0.0001878 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.0528 | qsr = -0.000146
+2023-11-16 17:24:10,802 method C35 | dter = -0.21 | dqer = -0.0001878 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.0528 | qsr = -0.000146
+2023-11-16 17:24:10,803 method C35 | # of iterations:10
+2023-11-16 17:24:10,803 method C35 | # of points that did not converge :0 
+
+2023-11-16 17:24:10,809 /home/jedholm/random/AirSeaFluxCode-master/AirSeaFluxCode/src/flux_subs.py:635: RuntimeWarning: invalid value encountered in sqrt
+  GustFact = np.sqrt(wind/spd)
+
+2023-11-16 17:37:26,003 /home/jedholm/random/AirSeaFluxCode-master/AirSeaFluxCode/src/flux_subs.py:390: RuntimeWarning: invalid value encountered in power
+  psi = -1*((1+b*zol)**1.5+b*(zol-14.28)*np.exp(-dzol)+8.525)
+
+2023-11-16 17:37:26,005 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.289 | tsr = -0.059 | qsr = -0.0001528
+2023-11-16 17:37:26,007 /home/jedholm/random/AirSeaFluxCode-master/AirSeaFluxCode/src/flux_subs.py:593: RuntimeWarning: invalid value encountered in power
+  ug = np.where(Bf > 0, np.maximum(beta*np.power(Bf*zi, 1/3), ustb), ustb)
+
+2023-11-16 17:37:26,011 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0588 | qsr = -0.0001517
+2023-11-16 17:37:26,017 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0588 | qsr = -0.0001517
+2023-11-16 17:37:26,022 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0588 | qsr = -0.0001517
+2023-11-16 17:37:26,025 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0588 | qsr = -0.0001517
+2023-11-16 17:37:26,027 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0588 | qsr = -0.0001517
+2023-11-16 17:37:26,028 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0588 | qsr = -0.0001517
+2023-11-16 17:37:26,030 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0588 | qsr = -0.0001517
+2023-11-16 17:37:26,030 method C35 | # of iterations:8
+2023-11-16 17:37:26,030 method C35 | # of points that did not converge :0 
+
+2023-11-16 17:37:26,037 /home/jedholm/random/AirSeaFluxCode-master/AirSeaFluxCode/src/flux_subs.py:635: RuntimeWarning: invalid value encountered in sqrt
+  GustFact = np.sqrt(wind/spd)
+
+2023-11-16 17:37:26,068 /home/jedholm/random/AirSeaFluxCode-master/AirSeaFluxCode/src/flux_subs.py:390: RuntimeWarning: invalid value encountered in power
+  psi = -1*((1+b*zol)**1.5+b*(zol-14.28)*np.exp(-dzol)+8.525)
+
+2023-11-16 17:37:26,070 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = -65.16 | usr = 0.289 | tsr = -0.0685 | qsr = -0.0001528
+2023-11-16 17:37:26,071 /home/jedholm/random/AirSeaFluxCode-master/AirSeaFluxCode/src/flux_subs.py:593: RuntimeWarning: invalid value encountered in power
+  ug = np.where(Bf > 0, np.maximum(beta*np.power(Bf*zi, 1/3), ustb), ustb)
+
+2023-11-16 17:37:26,076 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = -65.16 | usr = 0.292 | tsr = -0.0589 | qsr = -0.0001525
+2023-11-16 17:37:26,082 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = -65.16 | usr = 0.291 | tsr = -0.0588 | qsr = -0.0001515
+2023-11-16 17:37:26,088 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = -65.16 | usr = 0.291 | tsr = -0.0588 | qsr = -0.0001516
+2023-11-16 17:37:26,091 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = -65.16 | usr = 0.291 | tsr = -0.0588 | qsr = -0.0001516
+2023-11-16 17:37:26,093 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = -65.16 | usr = 0.291 | tsr = -0.0588 | qsr = -0.0001516
+2023-11-16 17:37:26,094 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = -65.16 | usr = 0.291 | tsr = -0.0588 | qsr = -0.0001516
+2023-11-16 17:37:26,096 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = -65.16 | usr = 0.291 | tsr = -0.0588 | qsr = -0.0001516
+2023-11-16 17:37:26,096 method C35 | # of iterations:8
+2023-11-16 17:37:26,096 method C35 | # of points that did not converge :0 
+
+2023-11-16 17:37:26,103 /home/jedholm/random/AirSeaFluxCode-master/AirSeaFluxCode/src/flux_subs.py:635: RuntimeWarning: invalid value encountered in sqrt
+  GustFact = np.sqrt(wind/spd)
+
+2023-11-16 17:37:26,111 /home/jedholm/random/AirSeaFluxCode-master/AirSeaFluxCode/src/flux_subs.py:390: RuntimeWarning: invalid value encountered in power
+  psi = -1*((1+b*zol)**1.5+b*(zol-14.28)*np.exp(-dzol)+8.525)
+
+2023-11-16 17:37:26,114 method C35 | dter = -0.2 | dqer = -0.0001838 | tkt = 0.0 | Rnl = -63.49 | usr = 0.289 | tsr = -0.0495 | qsr = -0.0001443
+2023-11-16 17:37:26,115 /home/jedholm/random/AirSeaFluxCode-master/AirSeaFluxCode/src/flux_subs.py:593: RuntimeWarning: invalid value encountered in power
+  ug = np.where(Bf > 0, np.maximum(beta*np.power(Bf*zi, 1/3), ustb), ustb)
+
+2023-11-16 17:37:26,120 method C35 | dter = -0.21 | dqer = -0.0001874 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.0518 | qsr = -0.0001456
+2023-11-16 17:37:26,127 method C35 | dter = -0.21 | dqer = -0.0001875 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.0518 | qsr = -0.0001459
+2023-11-16 17:37:26,133 method C35 | dter = -0.21 | dqer = -0.0001875 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.0518 | qsr = -0.0001459
+2023-11-16 17:37:26,137 method C35 | dter = -0.21 | dqer = -0.0001875 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.0518 | qsr = -0.0001459
+2023-11-16 17:37:26,138 method C35 | dter = -0.21 | dqer = -0.0001875 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.0518 | qsr = -0.0001459
+2023-11-16 17:37:26,140 method C35 | dter = -0.21 | dqer = -0.0001875 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.0518 | qsr = -0.0001459
+2023-11-16 17:37:26,141 method C35 | dter = -0.21 | dqer = -0.0001875 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.0518 | qsr = -0.0001459
+2023-11-16 17:37:26,142 method C35 | # of iterations:8
+2023-11-16 17:37:26,142 method C35 | # of points that did not converge :0 
+
+2023-11-16 17:37:26,148 /home/jedholm/random/AirSeaFluxCode-master/AirSeaFluxCode/src/flux_subs.py:635: RuntimeWarning: invalid value encountered in sqrt
+  GustFact = np.sqrt(wind/spd)
+
+2023-11-16 17:37:26,157 /home/jedholm/random/AirSeaFluxCode-master/AirSeaFluxCode/src/flux_subs.py:390: RuntimeWarning: invalid value encountered in power
+  psi = -1*((1+b*zol)**1.5+b*(zol-14.28)*np.exp(-dzol)+8.525)
+
+2023-11-16 17:37:26,163 method C35 | dter = -0.21 | dqer = -0.000187 | tkt = 0.0 | Rnl = -63.49 | usr = 0.289 | tsr = -0.059 | qsr = -0.0001443
+2023-11-16 17:37:26,164 /home/jedholm/random/AirSeaFluxCode-master/AirSeaFluxCode/src/flux_subs.py:593: RuntimeWarning: invalid value encountered in power
+  ug = np.where(Bf > 0, np.maximum(beta*np.power(Bf*zi, 1/3), ustb), ustb)
+
+2023-11-16 17:37:26,173 method C35 | dter = -0.21 | dqer = -0.000188 | tkt = 0.0 | Rnl = -64.05 | usr = 0.291 | tsr = -0.053 | qsr = -0.0001461
+2023-11-16 17:37:26,183 method C35 | dter = -0.21 | dqer = -0.0001876 | tkt = 0.0 | Rnl = -64.05 | usr = 0.29 | tsr = -0.0527 | qsr = -0.0001459
+2023-11-16 17:37:26,194 method C35 | dter = -0.21 | dqer = -0.0001878 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.0528 | qsr = -0.000146
+2023-11-16 17:37:26,199 method C35 | dter = -0.21 | dqer = -0.0001878 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.0528 | qsr = -0.000146
+2023-11-16 17:37:26,202 method C35 | dter = -0.21 | dqer = -0.0001878 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.0528 | qsr = -0.000146
+2023-11-16 17:37:26,204 method C35 | dter = -0.21 | dqer = -0.0001878 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.0528 | qsr = -0.000146
+2023-11-16 17:37:26,206 method C35 | dter = -0.21 | dqer = -0.0001878 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.0528 | qsr = -0.000146
+2023-11-16 17:37:26,208 method C35 | dter = -0.21 | dqer = -0.0001878 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.0528 | qsr = -0.000146
+2023-11-16 17:37:26,210 method C35 | dter = -0.21 | dqer = -0.0001878 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.0528 | qsr = -0.000146
+2023-11-16 17:37:26,211 method C35 | # of iterations:10
+2023-11-16 17:37:26,211 method C35 | # of points that did not converge :0 
+
+2023-11-16 17:37:26,217 /home/jedholm/random/AirSeaFluxCode-master/AirSeaFluxCode/src/flux_subs.py:635: RuntimeWarning: invalid value encountered in sqrt
+  GustFact = np.sqrt(wind/spd)
+
+2023-11-16 17:37:42,256 /tmp/ipykernel_1789012/2291895550.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  bulk_as_skin_wl_0['latent'][bulk_as_skin_wl_0['latent'] < 500] = np.nan
+
+2023-11-16 17:37:42,257 /tmp/ipykernel_1789012/2291895550.py:2: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  bulk_as_skin_wl_0['latent'][bulk_as_skin_wl_0['latent'] > -1000] = np.nan
+
+2023-11-16 17:37:42,258 /tmp/ipykernel_1789012/2291895550.py:4: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  bulk_as_skin_wl_1['latent'][bulk_as_skin_wl_1['latent'] < 500] = np.nan
+
+2023-11-16 17:37:42,259 /tmp/ipykernel_1789012/2291895550.py:5: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  bulk_as_skin_wl_1['latent'][bulk_as_skin_wl_1['latent'] > -1000] = np.nan
+
+2023-11-16 17:37:42,259 /tmp/ipykernel_1789012/2291895550.py:7: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  bulk_cskin_1_wl_0['latent'][bulk_cskin_1_wl_0['latent'] < 500] = np.nan
+
+2023-11-16 17:37:42,260 /tmp/ipykernel_1789012/2291895550.py:8: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  bulk_cskin_1_wl_0['latent'][bulk_cskin_1_wl_0['latent'] > -1000] = np.nan
+
+2023-11-16 17:37:42,261 /tmp/ipykernel_1789012/2291895550.py:10: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  bulk_cskin_1_wl_1['latent'][bulk_cskin_1_wl_1['latent'] < 500] = np.nan
+
+2023-11-16 17:37:42,261 /tmp/ipykernel_1789012/2291895550.py:11: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  bulk_cskin_1_wl_1['latent'][bulk_cskin_1_wl_1['latent'] > -1000] = np.nan
+
+2023-11-16 17:38:05,983 /home/jedholm/random/AirSeaFluxCode-master/AirSeaFluxCode/src/flux_subs.py:390: RuntimeWarning: invalid value encountered in power
+  psi = -1*((1+b*zol)**1.5+b*(zol-14.28)*np.exp(-dzol)+8.525)
+
+2023-11-16 17:38:05,984 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.289 | tsr = -0.059 | qsr = -0.0001528
+2023-11-16 17:38:05,986 /home/jedholm/random/AirSeaFluxCode-master/AirSeaFluxCode/src/flux_subs.py:593: RuntimeWarning: invalid value encountered in power
+  ug = np.where(Bf > 0, np.maximum(beta*np.power(Bf*zi, 1/3), ustb), ustb)
+
+2023-11-16 17:38:05,990 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0588 | qsr = -0.0001517
+2023-11-16 17:38:05,996 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0588 | qsr = -0.0001517
+2023-11-16 17:38:06,001 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0588 | qsr = -0.0001517
+2023-11-16 17:38:06,005 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0588 | qsr = -0.0001517
+2023-11-16 17:38:06,006 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0588 | qsr = -0.0001517
+2023-11-16 17:38:06,008 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0588 | qsr = -0.0001517
+2023-11-16 17:38:06,009 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0588 | qsr = -0.0001517
+2023-11-16 17:38:06,009 method C35 | # of iterations:8
+2023-11-16 17:38:06,009 method C35 | # of points that did not converge :0 
+
+2023-11-16 17:38:06,016 /home/jedholm/random/AirSeaFluxCode-master/AirSeaFluxCode/src/flux_subs.py:635: RuntimeWarning: invalid value encountered in sqrt
+  GustFact = np.sqrt(wind/spd)
+
+2023-11-16 17:38:06,054 /home/jedholm/random/AirSeaFluxCode-master/AirSeaFluxCode/src/flux_subs.py:390: RuntimeWarning: invalid value encountered in power
+  psi = -1*((1+b*zol)**1.5+b*(zol-14.28)*np.exp(-dzol)+8.525)
+
+2023-11-16 17:38:06,056 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = -65.16 | usr = 0.289 | tsr = -0.0685 | qsr = -0.0001528
+2023-11-16 17:38:06,057 /home/jedholm/random/AirSeaFluxCode-master/AirSeaFluxCode/src/flux_subs.py:593: RuntimeWarning: invalid value encountered in power
+  ug = np.where(Bf > 0, np.maximum(beta*np.power(Bf*zi, 1/3), ustb), ustb)
+
+2023-11-16 17:38:06,062 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = -65.16 | usr = 0.292 | tsr = -0.0589 | qsr = -0.0001525
+2023-11-16 17:38:06,068 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = -65.16 | usr = 0.291 | tsr = -0.0588 | qsr = -0.0001515
+2023-11-16 17:38:06,074 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = -65.16 | usr = 0.291 | tsr = -0.0588 | qsr = -0.0001516
+2023-11-16 17:38:06,078 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = -65.16 | usr = 0.291 | tsr = -0.0588 | qsr = -0.0001516
+2023-11-16 17:38:06,080 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = -65.16 | usr = 0.291 | tsr = -0.0588 | qsr = -0.0001516
+2023-11-16 17:38:06,081 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = -65.16 | usr = 0.291 | tsr = -0.0588 | qsr = -0.0001516
+2023-11-16 17:38:06,082 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = -65.16 | usr = 0.291 | tsr = -0.0588 | qsr = -0.0001516
+2023-11-16 17:38:06,083 method C35 | # of iterations:8
+2023-11-16 17:38:06,083 method C35 | # of points that did not converge :0 
+
+2023-11-16 17:38:06,089 /home/jedholm/random/AirSeaFluxCode-master/AirSeaFluxCode/src/flux_subs.py:635: RuntimeWarning: invalid value encountered in sqrt
+  GustFact = np.sqrt(wind/spd)
+
+2023-11-16 17:38:06,098 /home/jedholm/random/AirSeaFluxCode-master/AirSeaFluxCode/src/flux_subs.py:390: RuntimeWarning: invalid value encountered in power
+  psi = -1*((1+b*zol)**1.5+b*(zol-14.28)*np.exp(-dzol)+8.525)
+
+2023-11-16 17:38:06,100 method C35 | dter = -0.2 | dqer = -0.0001838 | tkt = 0.0 | Rnl = -63.49 | usr = 0.289 | tsr = -0.0495 | qsr = -0.0001443
+2023-11-16 17:38:06,102 /home/jedholm/random/AirSeaFluxCode-master/AirSeaFluxCode/src/flux_subs.py:593: RuntimeWarning: invalid value encountered in power
+  ug = np.where(Bf > 0, np.maximum(beta*np.power(Bf*zi, 1/3), ustb), ustb)
+
+2023-11-16 17:38:06,107 method C35 | dter = -0.21 | dqer = -0.0001874 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.0518 | qsr = -0.0001456
+2023-11-16 17:38:06,113 method C35 | dter = -0.21 | dqer = -0.0001875 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.0518 | qsr = -0.0001459
+2023-11-16 17:38:06,120 method C35 | dter = -0.21 | dqer = -0.0001875 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.0518 | qsr = -0.0001459
+2023-11-16 17:38:06,123 method C35 | dter = -0.21 | dqer = -0.0001875 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.0518 | qsr = -0.0001459
+2023-11-16 17:38:06,125 method C35 | dter = -0.21 | dqer = -0.0001875 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.0518 | qsr = -0.0001459
+2023-11-16 17:38:06,127 method C35 | dter = -0.21 | dqer = -0.0001875 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.0518 | qsr = -0.0001459
+2023-11-16 17:38:06,128 method C35 | dter = -0.21 | dqer = -0.0001875 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.0518 | qsr = -0.0001459
+2023-11-16 17:38:06,128 method C35 | # of iterations:8
+2023-11-16 17:38:06,128 method C35 | # of points that did not converge :0 
+
+2023-11-16 17:38:06,135 /home/jedholm/random/AirSeaFluxCode-master/AirSeaFluxCode/src/flux_subs.py:635: RuntimeWarning: invalid value encountered in sqrt
+  GustFact = np.sqrt(wind/spd)
+
+2023-11-16 17:38:06,143 /home/jedholm/random/AirSeaFluxCode-master/AirSeaFluxCode/src/flux_subs.py:390: RuntimeWarning: invalid value encountered in power
+  psi = -1*((1+b*zol)**1.5+b*(zol-14.28)*np.exp(-dzol)+8.525)
+
+2023-11-16 17:38:06,150 method C35 | dter = -0.21 | dqer = -0.000187 | tkt = 0.0 | Rnl = -63.49 | usr = 0.289 | tsr = -0.059 | qsr = -0.0001443
+2023-11-16 17:38:06,151 /home/jedholm/random/AirSeaFluxCode-master/AirSeaFluxCode/src/flux_subs.py:593: RuntimeWarning: invalid value encountered in power
+  ug = np.where(Bf > 0, np.maximum(beta*np.power(Bf*zi, 1/3), ustb), ustb)
+
+2023-11-16 17:38:06,160 method C35 | dter = -0.21 | dqer = -0.000188 | tkt = 0.0 | Rnl = -64.05 | usr = 0.291 | tsr = -0.053 | qsr = -0.0001461
+2023-11-16 17:38:06,170 method C35 | dter = -0.21 | dqer = -0.0001876 | tkt = 0.0 | Rnl = -64.05 | usr = 0.29 | tsr = -0.0527 | qsr = -0.0001459
+2023-11-16 17:38:06,181 method C35 | dter = -0.21 | dqer = -0.0001878 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.0528 | qsr = -0.000146
+2023-11-16 17:38:06,232 method C35 | dter = -0.21 | dqer = -0.0001878 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.0528 | qsr = -0.000146
+2023-11-16 17:38:06,236 method C35 | dter = -0.21 | dqer = -0.0001878 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.0528 | qsr = -0.000146
+2023-11-16 17:38:06,238 method C35 | dter = -0.21 | dqer = -0.0001878 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.0528 | qsr = -0.000146
+2023-11-16 17:38:06,240 method C35 | dter = -0.21 | dqer = -0.0001878 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.0528 | qsr = -0.000146
+2023-11-16 17:38:06,242 method C35 | dter = -0.21 | dqer = -0.0001878 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.0528 | qsr = -0.000146
+2023-11-16 17:38:06,245 method C35 | dter = -0.21 | dqer = -0.0001878 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.0528 | qsr = -0.000146
+2023-11-16 17:38:06,245 method C35 | # of iterations:10
+2023-11-16 17:38:06,245 method C35 | # of points that did not converge :0 
+
+2023-11-16 17:38:06,252 /home/jedholm/random/AirSeaFluxCode-master/AirSeaFluxCode/src/flux_subs.py:635: RuntimeWarning: invalid value encountered in sqrt
+  GustFact = np.sqrt(wind/spd)
+
+2023-11-16 17:38:31,589 /tmp/ipykernel_1789012/2541656442.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  bulk_as_skin_wl_0['latent'][~(bulk_as_skin_wl_0['latent'] < 500)] = np.nan
+
+2023-11-16 17:38:31,590 /tmp/ipykernel_1789012/2541656442.py:2: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  bulk_as_skin_wl_0['latent'][~(bulk_as_skin_wl_0['latent'] > -1000)] = np.nan
+
+2023-11-16 17:38:31,591 /tmp/ipykernel_1789012/2541656442.py:4: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  bulk_as_skin_wl_1['latent'][~(bulk_as_skin_wl_1['latent'] < 500)] = np.nan
+
+2023-11-16 17:38:31,592 /tmp/ipykernel_1789012/2541656442.py:5: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  bulk_as_skin_wl_1['latent'][~(bulk_as_skin_wl_1['latent'] > -1000)] = np.nan
+
+2023-11-16 17:38:31,594 /tmp/ipykernel_1789012/2541656442.py:7: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  bulk_cskin_1_wl_0['latent'][~(bulk_cskin_1_wl_0['latent'] < 500)] = np.nan
+
+2023-11-16 17:38:31,594 /tmp/ipykernel_1789012/2541656442.py:8: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  bulk_cskin_1_wl_0['latent'][~(bulk_cskin_1_wl_0['latent'] > -1000)] = np.nan
+
+2023-11-16 17:38:31,595 /tmp/ipykernel_1789012/2541656442.py:10: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  bulk_cskin_1_wl_1['latent'][~(bulk_cskin_1_wl_1['latent'] < 500)] = np.nan
+
+2023-11-16 17:38:31,596 /tmp/ipykernel_1789012/2541656442.py:11: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  bulk_cskin_1_wl_1['latent'][~(bulk_cskin_1_wl_1['latent'] > -1000)] = np.nan
+
+2023-11-16 17:39:01,527 /tmp/ipykernel_1789012/1770515483.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  bulk_as_skin_wl_0['latent'][~(bulk_as_skin_wl_0['latent'] < 500)] = np.nan
+
+2023-11-16 17:39:01,528 /tmp/ipykernel_1789012/1770515483.py:2: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  bulk_as_skin_wl_0['latent'][~(bulk_as_skin_wl_0['latent'] > -1000)] = np.nan
+
+2023-11-16 17:39:01,529 /tmp/ipykernel_1789012/1770515483.py:4: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  bulk_as_skin_wl_1['latent'][~(bulk_as_skin_wl_1['latent'] < 500)] = np.nan
+
+2023-11-16 17:39:01,530 /tmp/ipykernel_1789012/1770515483.py:5: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  bulk_as_skin_wl_1['latent'][~(bulk_as_skin_wl_1['latent'] > -1000)] = np.nan
+
+2023-11-16 17:39:01,530 /tmp/ipykernel_1789012/1770515483.py:7: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  bulk_cskin_1_wl_0['latent'][~(bulk_cskin_1_wl_0['latent'] < 500)] = np.nan
+
+2023-11-16 17:39:01,531 /tmp/ipykernel_1789012/1770515483.py:8: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  bulk_cskin_1_wl_0['latent'][~(bulk_cskin_1_wl_0['latent'] > -1000)] = np.nan
+
+2023-11-16 17:39:01,531 /tmp/ipykernel_1789012/1770515483.py:10: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  bulk_cskin_1_wl_1['latent'][~(bulk_cskin_1_wl_1['latent'] < 500)] = np.nan
+
+2023-11-16 17:39:01,532 /tmp/ipykernel_1789012/1770515483.py:11: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  bulk_cskin_1_wl_1['latent'][~(bulk_cskin_1_wl_1['latent'] > -1000)] = np.nan
+
+2023-11-16 17:39:01,532 /tmp/ipykernel_1789012/1770515483.py:13: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  bulk_as_skin_wl_0['sensible'][~(bulk_as_skin_wl_0['sensible'] < 500)] = np.nan
+
+2023-11-16 17:39:01,533 /tmp/ipykernel_1789012/1770515483.py:14: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  bulk_as_skin_wl_0['sensible'][~(bulk_as_skin_wl_0['sensible'] > -1000)] = np.nan
+
+2023-11-16 17:39:01,533 /tmp/ipykernel_1789012/1770515483.py:16: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  bulk_as_skin_wl_1['sensible'][~(bulk_as_skin_wl_1['sensible'] < 500)] = np.nan
+
+2023-11-16 17:39:01,534 /tmp/ipykernel_1789012/1770515483.py:17: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  bulk_as_skin_wl_1['sensible'][~(bulk_as_skin_wl_1['sensible'] > -1000)] = np.nan
+
+2023-11-16 17:39:01,534 /tmp/ipykernel_1789012/1770515483.py:19: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  bulk_cskin_1_wl_0['sensible'][~(bulk_cskin_1_wl_0['sensible'] < 500)] = np.nan
+
+2023-11-16 17:39:01,535 /tmp/ipykernel_1789012/1770515483.py:20: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  bulk_cskin_1_wl_0['sensible'][~(bulk_cskin_1_wl_0['sensible'] > -1000)] = np.nan
+
+2023-11-16 17:39:01,535 /tmp/ipykernel_1789012/1770515483.py:22: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  bulk_cskin_1_wl_1['sensible'][~(bulk_cskin_1_wl_1['sensible'] < 500)] = np.nan
+
+2023-11-16 17:39:01,535 /tmp/ipykernel_1789012/1770515483.py:23: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  bulk_cskin_1_wl_1['sensible'][~(bulk_cskin_1_wl_1['sensible'] > -1000)] = np.nan
+
+2023-11-16 17:39:36,387 /home/jedholm/random/AirSeaFluxCode-master/AirSeaFluxCode/src/flux_subs.py:390: RuntimeWarning: invalid value encountered in power
+  psi = -1*((1+b*zol)**1.5+b*(zol-14.28)*np.exp(-dzol)+8.525)
+
+2023-11-16 17:39:36,389 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.289 | tsr = -0.059 | qsr = -0.0001528
+2023-11-16 17:39:36,390 /home/jedholm/random/AirSeaFluxCode-master/AirSeaFluxCode/src/flux_subs.py:593: RuntimeWarning: invalid value encountered in power
+  ug = np.where(Bf > 0, np.maximum(beta*np.power(Bf*zi, 1/3), ustb), ustb)
+
+2023-11-16 17:39:36,395 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0588 | qsr = -0.0001517
+2023-11-16 17:39:36,401 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0588 | qsr = -0.0001517
+2023-11-16 17:39:36,406 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0588 | qsr = -0.0001517
+2023-11-16 17:39:36,409 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0588 | qsr = -0.0001517
+2023-11-16 17:39:36,411 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0588 | qsr = -0.0001517
+2023-11-16 17:39:36,412 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0588 | qsr = -0.0001517
+2023-11-16 17:39:36,413 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = 0.0 | usr = 0.291 | tsr = -0.0588 | qsr = -0.0001517
+2023-11-16 17:39:36,414 method C35 | # of iterations:8
+2023-11-16 17:39:36,414 method C35 | # of points that did not converge :0 
+
+2023-11-16 17:39:36,421 /home/jedholm/random/AirSeaFluxCode-master/AirSeaFluxCode/src/flux_subs.py:635: RuntimeWarning: invalid value encountered in sqrt
+  GustFact = np.sqrt(wind/spd)
+
+2023-11-16 17:39:36,430 /home/jedholm/random/AirSeaFluxCode-master/AirSeaFluxCode/src/flux_subs.py:390: RuntimeWarning: invalid value encountered in power
+  psi = -1*((1+b*zol)**1.5+b*(zol-14.28)*np.exp(-dzol)+8.525)
+
+2023-11-16 17:39:36,431 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = -65.16 | usr = 0.289 | tsr = -0.0685 | qsr = -0.0001528
+2023-11-16 17:39:36,433 /home/jedholm/random/AirSeaFluxCode-master/AirSeaFluxCode/src/flux_subs.py:593: RuntimeWarning: invalid value encountered in power
+  ug = np.where(Bf > 0, np.maximum(beta*np.power(Bf*zi, 1/3), ustb), ustb)
+
+2023-11-16 17:39:36,438 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = -65.16 | usr = 0.292 | tsr = -0.0589 | qsr = -0.0001525
+2023-11-16 17:39:36,444 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = -65.16 | usr = 0.291 | tsr = -0.0588 | qsr = -0.0001515
+2023-11-16 17:39:36,450 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = -65.16 | usr = 0.291 | tsr = -0.0588 | qsr = -0.0001516
+2023-11-16 17:39:36,453 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = -65.16 | usr = 0.291 | tsr = -0.0588 | qsr = -0.0001516
+2023-11-16 17:39:36,455 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = -65.16 | usr = 0.291 | tsr = -0.0588 | qsr = -0.0001516
+2023-11-16 17:39:36,457 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = -65.16 | usr = 0.291 | tsr = -0.0588 | qsr = -0.0001516
+2023-11-16 17:39:36,458 method C35 | dter = 0.0 | dqer = 0.0 | tkt = 0.0 | Rnl = -65.16 | usr = 0.291 | tsr = -0.0588 | qsr = -0.0001516
+2023-11-16 17:39:36,497 method C35 | # of iterations:8
+2023-11-16 17:39:36,497 method C35 | # of points that did not converge :0 
+
+2023-11-16 17:39:36,507 /home/jedholm/random/AirSeaFluxCode-master/AirSeaFluxCode/src/flux_subs.py:635: RuntimeWarning: invalid value encountered in sqrt
+  GustFact = np.sqrt(wind/spd)
+
+2023-11-16 17:39:36,516 /home/jedholm/random/AirSeaFluxCode-master/AirSeaFluxCode/src/flux_subs.py:390: RuntimeWarning: invalid value encountered in power
+  psi = -1*((1+b*zol)**1.5+b*(zol-14.28)*np.exp(-dzol)+8.525)
+
+2023-11-16 17:39:36,519 method C35 | dter = -0.2 | dqer = -0.0001838 | tkt = 0.0 | Rnl = -63.49 | usr = 0.289 | tsr = -0.0495 | qsr = -0.0001443
+2023-11-16 17:39:36,520 /home/jedholm/random/AirSeaFluxCode-master/AirSeaFluxCode/src/flux_subs.py:593: RuntimeWarning: invalid value encountered in power
+  ug = np.where(Bf > 0, np.maximum(beta*np.power(Bf*zi, 1/3), ustb), ustb)
+
+2023-11-16 17:39:36,525 method C35 | dter = -0.21 | dqer = -0.0001874 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.0518 | qsr = -0.0001456
+2023-11-16 17:39:36,532 method C35 | dter = -0.21 | dqer = -0.0001875 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.0518 | qsr = -0.0001459
+2023-11-16 17:39:36,538 method C35 | dter = -0.21 | dqer = -0.0001875 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.0518 | qsr = -0.0001459
+2023-11-16 17:39:36,542 method C35 | dter = -0.21 | dqer = -0.0001875 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.0518 | qsr = -0.0001459
+2023-11-16 17:39:36,544 method C35 | dter = -0.21 | dqer = -0.0001875 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.0518 | qsr = -0.0001459
+2023-11-16 17:39:36,545 method C35 | dter = -0.21 | dqer = -0.0001875 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.0518 | qsr = -0.0001459
+2023-11-16 17:39:36,546 method C35 | dter = -0.21 | dqer = -0.0001875 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.0518 | qsr = -0.0001459
+2023-11-16 17:39:36,547 method C35 | # of iterations:8
+2023-11-16 17:39:36,547 method C35 | # of points that did not converge :0 
+
+2023-11-16 17:39:36,554 /home/jedholm/random/AirSeaFluxCode-master/AirSeaFluxCode/src/flux_subs.py:635: RuntimeWarning: invalid value encountered in sqrt
+  GustFact = np.sqrt(wind/spd)
+
+2023-11-16 17:39:36,562 /home/jedholm/random/AirSeaFluxCode-master/AirSeaFluxCode/src/flux_subs.py:390: RuntimeWarning: invalid value encountered in power
+  psi = -1*((1+b*zol)**1.5+b*(zol-14.28)*np.exp(-dzol)+8.525)
+
+2023-11-16 17:39:36,568 method C35 | dter = -0.21 | dqer = -0.000187 | tkt = 0.0 | Rnl = -63.49 | usr = 0.289 | tsr = -0.059 | qsr = -0.0001443
+2023-11-16 17:39:36,570 /home/jedholm/random/AirSeaFluxCode-master/AirSeaFluxCode/src/flux_subs.py:593: RuntimeWarning: invalid value encountered in power
+  ug = np.where(Bf > 0, np.maximum(beta*np.power(Bf*zi, 1/3), ustb), ustb)
+
+2023-11-16 17:39:36,579 method C35 | dter = -0.21 | dqer = -0.000188 | tkt = 0.0 | Rnl = -64.05 | usr = 0.291 | tsr = -0.053 | qsr = -0.0001461
+2023-11-16 17:39:36,589 method C35 | dter = -0.21 | dqer = -0.0001876 | tkt = 0.0 | Rnl = -64.05 | usr = 0.29 | tsr = -0.0527 | qsr = -0.0001459
+2023-11-16 17:39:36,599 method C35 | dter = -0.21 | dqer = -0.0001878 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.0528 | qsr = -0.000146
+2023-11-16 17:39:36,605 method C35 | dter = -0.21 | dqer = -0.0001878 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.0528 | qsr = -0.000146
+2023-11-16 17:39:36,607 method C35 | dter = -0.21 | dqer = -0.0001878 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.0528 | qsr = -0.000146
+2023-11-16 17:39:36,610 method C35 | dter = -0.21 | dqer = -0.0001878 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.0528 | qsr = -0.000146
+2023-11-16 17:39:36,612 method C35 | dter = -0.21 | dqer = -0.0001878 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.0528 | qsr = -0.000146
+2023-11-16 17:39:36,614 method C35 | dter = -0.21 | dqer = -0.0001878 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.0528 | qsr = -0.000146
+2023-11-16 17:39:36,616 method C35 | dter = -0.21 | dqer = -0.0001878 | tkt = 0.0 | Rnl = -64.06 | usr = 0.29 | tsr = -0.0528 | qsr = -0.000146
+2023-11-16 17:39:36,616 method C35 | # of iterations:10
+2023-11-16 17:39:36,616 method C35 | # of points that did not converge :0 
+
+2023-11-16 17:39:36,623 /home/jedholm/random/AirSeaFluxCode-master/AirSeaFluxCode/src/flux_subs.py:635: RuntimeWarning: invalid value encountered in sqrt
+  GustFact = np.sqrt(wind/spd)
+
+2023-11-16 17:39:36,631 /tmp/ipykernel_1789012/1770515483.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  bulk_as_skin_wl_0['latent'][~(bulk_as_skin_wl_0['latent'] < 500)] = np.nan
+
+2023-11-16 17:39:36,632 /tmp/ipykernel_1789012/1770515483.py:2: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  bulk_as_skin_wl_0['latent'][~(bulk_as_skin_wl_0['latent'] > -1000)] = np.nan
+
+2023-11-16 17:39:36,632 /tmp/ipykernel_1789012/1770515483.py:4: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  bulk_as_skin_wl_1['latent'][~(bulk_as_skin_wl_1['latent'] < 500)] = np.nan
+
+2023-11-16 17:39:36,633 /tmp/ipykernel_1789012/1770515483.py:5: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  bulk_as_skin_wl_1['latent'][~(bulk_as_skin_wl_1['latent'] > -1000)] = np.nan
+
+2023-11-16 17:39:36,633 /tmp/ipykernel_1789012/1770515483.py:7: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  bulk_cskin_1_wl_0['latent'][~(bulk_cskin_1_wl_0['latent'] < 500)] = np.nan
+
+2023-11-16 17:39:36,633 /tmp/ipykernel_1789012/1770515483.py:8: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  bulk_cskin_1_wl_0['latent'][~(bulk_cskin_1_wl_0['latent'] > -1000)] = np.nan
+
+2023-11-16 17:39:36,634 /tmp/ipykernel_1789012/1770515483.py:10: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  bulk_cskin_1_wl_1['latent'][~(bulk_cskin_1_wl_1['latent'] < 500)] = np.nan
+
+2023-11-16 17:39:36,634 /tmp/ipykernel_1789012/1770515483.py:11: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  bulk_cskin_1_wl_1['latent'][~(bulk_cskin_1_wl_1['latent'] > -1000)] = np.nan
+
+2023-11-16 17:39:36,635 /tmp/ipykernel_1789012/1770515483.py:13: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  bulk_as_skin_wl_0['sensible'][~(bulk_as_skin_wl_0['sensible'] < 500)] = np.nan
+
+2023-11-16 17:39:36,635 /tmp/ipykernel_1789012/1770515483.py:14: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  bulk_as_skin_wl_0['sensible'][~(bulk_as_skin_wl_0['sensible'] > -1000)] = np.nan
+
+2023-11-16 17:39:36,636 /tmp/ipykernel_1789012/1770515483.py:16: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  bulk_as_skin_wl_1['sensible'][~(bulk_as_skin_wl_1['sensible'] < 500)] = np.nan
+
+2023-11-16 17:39:36,636 /tmp/ipykernel_1789012/1770515483.py:17: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  bulk_as_skin_wl_1['sensible'][~(bulk_as_skin_wl_1['sensible'] > -1000)] = np.nan
+
+2023-11-16 17:39:36,637 /tmp/ipykernel_1789012/1770515483.py:19: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  bulk_cskin_1_wl_0['sensible'][~(bulk_cskin_1_wl_0['sensible'] < 500)] = np.nan
+
+2023-11-16 17:39:36,637 /tmp/ipykernel_1789012/1770515483.py:20: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  bulk_cskin_1_wl_0['sensible'][~(bulk_cskin_1_wl_0['sensible'] > -1000)] = np.nan
+
+2023-11-16 17:39:36,638 /tmp/ipykernel_1789012/1770515483.py:22: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  bulk_cskin_1_wl_1['sensible'][~(bulk_cskin_1_wl_1['sensible'] < 500)] = np.nan
+
+2023-11-16 17:39:36,638 /tmp/ipykernel_1789012/1770515483.py:23: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  bulk_cskin_1_wl_1['sensible'][~(bulk_cskin_1_wl_1['sensible'] > -1000)] = np.nan
+
